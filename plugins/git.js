@@ -11,23 +11,29 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
     
     
    
-  r_text[0] = "https://i.imgur.com/oBLYqk7.jpeg";
+  r_text[0] = "https://i.imgur.com/OSW6Agm.jpeg";
     
     
     var i = Math.floor(1*Math.random())
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*Fasil*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `*AJMAL-ACHU*
 
-*owner number wa.me/918136831431?text=Hi*
-*paathu githublink   https://github.com/Fasil-vkn/Paathu*
+*BOT NAME : NANDHUTTY*
 
-*https://instagram.com/paathubot?utm_medium=copy_link*
+*VERSION : 2.0*
 
-*saidali liyamol githublink https://github.com/saidalisaid2/LiyaMol*
+*owner number*
+
+*Ajmal : https://wa.me/919744196187*
+
+*Achu : https://wa.me/918590967139*
+
+*Nandhutty_v2 githublink   https://github.com/Ajmal-Achu/Nandhutty_v2*
+
+*©AJMAL-ACHU©*
 
 `}) 
 
 }));
-        
