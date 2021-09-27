@@ -10,8 +10,8 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
     var r_text = new Array ();
     
     
-     r_text[1] = "https://i.imgur.com/OSW6Agm.jpeg";
-     r_text[2] = "https://i.imgur.com/OSW6Agm.jpeg";
+     r_text[1] = "https://avatars.githubusercontent.com/u/85664936?v=4";
+     r_text[2] = "https://avatars.githubusercontent.com/u/85664936?v=4";
    
     
     
@@ -19,9 +19,9 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 
     var respoimage = await axios.get(`${r_text[i]}`, { responseType: 'arraybuffer' })
 
-    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️Nandhutty✨️━━━━━⛦
-𝗛𝗘𝗟𝗟𝗢👋 𝗜 𝗮𝗺 𝗔𝗝𝗠𝗔𝗟 𝗔𝗡𝗗 𝗔𝗖𝗛𝗨'𝗦 𝗯𝗼𝘁.
-            *NANDHUTTY*
+    await message.sendMessage(Buffer(respoimage.data), MessageType.image, {mimetype: Mimetype.png, caption: `⛦━━━━━✨️WhiteDevil✨️━━━━━⛦
+𝐇𝐞𝐥𝐥𝐨👋 𝐈 𝐚𝐦 𝐚 Karthik_terror-boy's 𝐛𝐨𝐭.
+            *WhiteDevil*
 ■□■□■□■□■□■□■□■□■□■□
 ♕ *𝙈𝙚𝙙𝙞𝙖 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♕
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -song <text>
@@ -59,7 +59,7 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 🍙𝙐𝙨𝙚➜ Finds the text written on the image.
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -wallpaper
 🍙𝙐𝙨𝙚➜ It sends you random wallpaper.
-■□■□■□■□■𝗡𝗔𝗡𝗗𝗛𝗨𝗧𝗧𝗬■□■□■□■□■□
+■□■□■□■□■□WhiteDevil■□■□■□■□■□
 ♟ *𝙁𝙪𝙣 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♟
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -joke 
 🍙𝙐𝙨𝙚➜ It sends a random joke.
@@ -89,19 +89,19 @@ Asena.addCommand({pattern: 'menu', fromMe: false, desc: Lang.WP}, (async (messag
 ⚠️movie master
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜  -anime <text>
 🍙𝙐𝙨𝙚➜  Gives you info about anime.
-⚠️anime Nandhutty
-■□■□■□■□■𝗡𝗔𝗡𝗗𝗛𝗨𝗧𝗧𝗬□■□■□■□■□■□
-♟ *𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♟
+⚠️anime whitedevil
+■□■□■□■□■WhiteDevil□■□■□■□■□■□
+♝ *𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝘾𝙤𝙢𝙢𝙖𝙣𝙙𝙨* ♝
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -sticker 
 🍙𝙐𝙨𝙚➜ Converts img/gif into a sticker.
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -photo 
 🍙𝙐𝙨𝙚➜ Converts sticker into image.
 ➡️𝘾𝙤𝙢𝙢𝙖𝙣𝙙➜ -attp <text>
 🍙𝙐𝙨𝙚➜ Converts text into glowing sticker.
-⚠️ex  attp Nandhutty
+⚠️ex  attp whitedevil
 ■□■□■□■□■□■□■□■□■□■□
-═════💢𝗡𝗔𝗡𝗗𝗛𝗨𝗧𝗧𝗬💢═════
-▣▣▣▣▣▣▣▣▣ 𝗔𝗝𝗠𝗔𝗟-𝗔𝗖𝗛𝗨 ▣▣▣▣▣▣▣▣▣▣▣
+═════💢WhiteDevil💢═════
+▣▣▣▣▣▣▣▣▣ Karthik_terror-boy  ▣▣▣▣▣▣▣▣▣▣▣
 `}) 
 
 }));
