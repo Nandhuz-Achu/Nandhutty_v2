@@ -26,6 +26,8 @@ Asena.addCommand({pattern: 'git', fromMe: false, desc: Lang.WP}, (async (message
 
 *owner number*
 
+*Join our group:
+
 *Ajmal : https://wa.me/919744196187*
 
 *Achu : https://wa.me/918590967139*
